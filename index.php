@@ -16,7 +16,7 @@ $client = new Client;
 // input nomor telepon
 // awal nomor telepon harus 0,
 // tidak boleh +62
-$deteksi = $client->detect('089655541804');
+$deteksi = $client->detect('081322080111');
 
 // cetak hasilnya, karena hasil akan direturn dalam array
 print_r($deteksi);
@@ -35,7 +35,8 @@ echo "<br>";
 
 // $client -> isIndosat('nomorHp');
 // $client -> isXl('nomorHp');
-// $client -> isTelkomsel('nomorHp');
+// $client -> isTelkomsel('081322080111
+');
 // $client -> isSmartfren('nomorHp');
 // $client -> isThree('nomorHp');
 
